@@ -1,8 +1,6 @@
 ---
 title: 【NYOJ】[1008]一种排序
-author: BoilTask
 type: post
-date: 2016-02-02T03:08:40+08:00
 slug: nyoj-1001
 categories:
   - oj

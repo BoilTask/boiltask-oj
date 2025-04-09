@@ -1,5 +1,5 @@
 ---
-title: 【HDU】[1715]一种排序
+title: 【HDU】[1715]大菲波数
 author: BoilTask
 type: post
 slug: hdu-1715

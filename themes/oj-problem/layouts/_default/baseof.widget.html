@@ -9,7 +9,7 @@
   <script>
     function sendHeight() {
       const height = document.documentElement.scrollHeight || document.body.scrollHeight;
-      window.parent.postMessage({ type: 'setHeight', height: height }, '*');
+      window.parent.postMessage({ type: 'boiltask-oj-set-height', slug: "{{- .Slug -}}", height: height }, '*');
     }
     window.addEventListener('load', sendHeight);
     window.addEventListener('resize', sendHeight);
@@ -20,6 +20,17 @@
   <main role="main">
     {{ block "main" . }}{{ end }}
   </main>
+  <script>
+    // 如果param中包含?hidden_title，则把class="dida-title"的元素隐藏
+    const urlParams = new URLSearchParams(window.location.search);
+    const hiddenTitle = urlParams.get('hidden_title');
+    if (hiddenTitle) {
+      const titleElements = document.querySelectorAll('.oj-title');
+      titleElements.forEach(element => {
+        element.style.display = 'none';
+      });
+    }
+  </script>
 </body>
 
 </html>

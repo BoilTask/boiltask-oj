@@ -1,5 +1,4 @@
 
 # {{ .Title }}
 
-123
-
+{{ .RawContent }}

@@ -3,17 +3,29 @@ languageCode = "zh-CN"
 title = "Online Judge Problem"
 theme = "oj-problem"
 
+[outputFormats.Problem]
+mediaType = "text/html"
+baseName = "index"
+path = "problem"
+isHTML = true
+notAlternative = true
+
 [outputFormats.Markdown]
 mediaType = "text/markdown"
 baseName = "index"
+path = "markdown"
 isPlainText = true
 notAlternative = true
 
 [outputFormats.Widget]
 mediaType = "text/html"
-baseName = "widget/index"
+baseName = "index"
+path = "widget"
 isHTML = true
 notAlternative = true
 
 [outputs]
-page = ["HTML", "Markdown", "Widget"]
+page = ["Problem", "Markdown", "Widget"]
+
+[permalinks]
+problem = ":slug"

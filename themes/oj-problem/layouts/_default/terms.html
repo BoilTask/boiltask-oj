@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <div>
+    <section>
+      {{ range $term := .Data.Pages }}
+        <h2>
+          <a href="{{ $term.RelPermalink }}">
+            {{ $.Data.Singular | inflect.Humanize }}: {{ $term.LinkTitle }}
+          </a>
+        </h2>
+        {{ range $term.Pages }}
+          {{ .Render "summary" }}
+        {{ end }}
+      {{ end }}
+    </section>
+  </div>
+{{ end }}

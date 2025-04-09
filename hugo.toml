@@ -1,0 +1,19 @@
+baseURL = "https://oj.boiltask.com/"
+languageCode = "zh-CN"
+title = "Online Judge Problem"
+theme = "oj-problem"
+
+[outputFormats.Markdown]
+mediaType = "text/markdown"
+baseName = "index"
+isPlainText = true
+notAlternative = true
+
+[outputFormats.Widget]
+mediaType = "text/html"
+baseName = "widget/index"
+isHTML = true
+notAlternative = true
+
+[outputs]
+page = ["HTML", "Markdown", "Widget"]

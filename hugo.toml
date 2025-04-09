@@ -25,7 +25,8 @@ isHTML = true
 notAlternative = true
 
 [outputs]
-page = ["Problem", "Markdown", "Widget"]
+page = ["HTML", "Problem", "Markdown", "Widget"]
 
 [permalinks]
 problem = ":slug"
+page = ":slug"

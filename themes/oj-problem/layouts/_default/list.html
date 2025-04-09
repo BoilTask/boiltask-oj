@@ -1,12 +1,11 @@
-{{ define "main" }}
-  <article>
-    <section>
-      {{ range .Paginator.Pages }}
-        <div>
-          {{ .Render "summary" }}
-        </div>
-      {{ end }}
-    </section>
-    {{- template "_internal/pagination.html" . -}}
-  </article>
+{{ define "main" }} {{ $filteredPages := where .Site.Pages "Type" "in" "post" }}
+{{ $paginator := .Paginate $filteredPages }}
+<article>
+  <section>
+    {{ range $paginator.Pages }}
+    <div>{{ .Render "summary" }}</div>
+    {{ end }}
+  </section>
+  {{- template "_internal/pagination.html" . -}}
+</article>
 {{ end }}

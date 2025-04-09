@@ -12,7 +12,7 @@
         background-color: #f4f4f9;
       }
       .container {
-        max-width: 600px;
+        width: 100%;
         margin: 0 auto;
         background-color: white;
         padding: 20px;
@@ -100,34 +100,36 @@
 
         // 发送 POST 请求到 Worker
         try {
-          const response = await fetch("https://boiltask-oj-worker.boiltask.workers.dev/", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ oj, problem }),
-          });
-
-          if (!response.ok) {
-            throw new Error(`Error: ${response.statusText}`);
-          }
+          const response = await fetch(
+            "https://boiltask-oj-worker.boiltask.workers.dev/",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ oj, problem }),
+            }
+          );
 
           const result = await response.json();
-          const { ok, upload } = result;
+
+          // 如果返回的数据格式符合标准
+          const { code, data } = result;
 
           // 显示结果
           document.getElementById("result").style.display = "block";
-          if (ok) {
+          if (code === 0) {
             document.getElementById(
               "result"
             ).innerHTML = `<h2>Upload Successful!</h2><pre>${JSON.stringify(
-              upload,
+              data,
               null,
               2
             )}</pre>`;
           } else {
-            document.getElementById("result").innerHTML =
-              "Failed to upload the problem.";
+            document.getElementById(
+              "result"
+            ).innerHTML = `<h2>Error: ${code}</h2><pre>${data}</pre>`;
           }
         } catch (error) {
           document.getElementById("result").style.display = "block";

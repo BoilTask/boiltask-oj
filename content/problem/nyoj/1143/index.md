@@ -24,9 +24,7 @@ categories:
 
 ## 示例
 
-2 2 4 2 3 9 7
 
-Yes No
 
 ## 提示
 

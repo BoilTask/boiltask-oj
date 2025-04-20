@@ -22,17 +22,13 @@ categories:
 
 ## Sample Input
 
-```
 1
 1.5
-```
 
 ## Sample Output
 
-```
 4.189
 14.137
-```
 
 ## Hint
 

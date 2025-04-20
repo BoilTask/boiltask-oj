@@ -22,13 +22,17 @@ categories:
 
 ## Sample Input
 
+```
 123
 -234.00
+```
 
 ## Sample Output
 
+```
 123.00
 234.00
+```
 
 
 ## Author

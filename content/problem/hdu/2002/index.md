@@ -34,7 +34,7 @@ categories:
 14.137
 ```
 
-## Sample Output
+## Hint
 
   
 #define PI 3.1415927

@@ -1,0 +1,5 @@
+{{ $isExternal := strings.HasPrefix .Destination "http" | and (not (strings.HasPrefix .Destination site.BaseURL)) }}
+<a href="{{ .Destination | safeURL }}"
+  {{ if $isExternal }}target="_blank" rel="noopener noreferrer"{{ end }}>
+  {{ .Text | safeHTML }}
+</a>

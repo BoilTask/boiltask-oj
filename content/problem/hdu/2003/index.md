@@ -25,6 +25,7 @@ categories:
 ```
 123
 -234.00
+
 ```
 
 ## Sample Output

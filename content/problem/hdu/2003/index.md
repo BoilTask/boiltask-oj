@@ -41,4 +41,4 @@ lcy
 
 ## Source
 
-[C语言程序设计练习（一）](/search.php?field=problem&key=C%D3%EF%D1%D4%B3%CC%D0%F2%C9%E8%BC%C6%C1%B7%CF%B0%A3%A8%D2%BB%A3%A9&source=1&searchmode=source)
+[C语言程序设计练习（一）](https://acm.hdu.edu.cn//search.php?field=problem&key=C%D3%EF%D1%D4%B3%CC%D0%F2%C9%E8%BC%C6%C1%B7%CF%B0%A3%A8%D2%BB%A3%A9&source=1&searchmode=source)

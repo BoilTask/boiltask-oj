@@ -24,13 +24,18 @@ categories:
 
 123
 -234.00
+
+## Sample Output
+
 123.00
 234.00
 
-## Hint
 
-无
 
 ## Author
+
+lcy
+
+## Source
 
 C语言程序设计练习（一）

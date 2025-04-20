@@ -30,6 +30,11 @@
         element.style.display = 'none';
       });
     }
+
+    const problemTitleElement = document.querySelector('.oj-problem h1');
+    if (problemTitleElement) {
+      window.parent.postMessage({ type: 'boiltask-oj-problem-info', title: problemTitleElement.innerText }, '*');
+    }
   </script>
 </body>
 

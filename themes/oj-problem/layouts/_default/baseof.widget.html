@@ -25,7 +25,7 @@
     const urlParams = new URLSearchParams(window.location.search);
     const hiddenTitle = urlParams.get('hidden_title');
     if (hiddenTitle) {
-      const titleElements = document.querySelectorAll('.oj-title');
+      const titleElements = document.querySelectorAll('h1');
       titleElements.forEach(element => {
         element.style.display = 'none';
       });

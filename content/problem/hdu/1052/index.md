@@ -6,8 +6,8 @@ categories:
   - hdu
 ProblemParams:
     ProblemTitle: "Tian Ji -- The Horse Racing"
-    TimeLimit: "?"
-    MemoryLimit: "?"
+    TimeLimit: ""
+    MemoryLimit: ""
 ---
 
 # Tian Ji -- The Horse Racing

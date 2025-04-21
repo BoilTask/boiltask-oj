@@ -4,6 +4,9 @@ type: post
 slug: hdu-1052
 categories:
   - hdu
+problem_title: Tian Ji -- The Horse Racing
+time_limit: ?
+memory_limit: ?
 ---
 
 # Tian Ji -- The Horse Racing

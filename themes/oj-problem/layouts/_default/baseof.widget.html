@@ -33,9 +33,9 @@
 
     window.parent.postMessage({
       type: 'boiltask-oj-problem-info',
-      title: "{{ index .Params 'problem_title' }}",
-      time_limit: "{{ index .Params 'time_limit' }}",
-      memory_limit: "{{ index .Params 'memory_limit' }}",
+      title: "{{ .Params.ProblemParams.ProblemTitle }}",
+      time_limit: "{{ .Params.ProblemParams.TimeLimit }}",
+      memory_limit: "{{ .Params.ProblemParams.MemoryLimit }}",
     }, '*');
   </script>
 </body>

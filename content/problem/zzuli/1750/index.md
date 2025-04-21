@@ -5,9 +5,9 @@ slug: zzuli-1750
 categories:
   - zzuli
 ProblemParams:
-  ProblemTitle: Bean！
-  TimeLimit: 1 Sec
-  MemoryLimit: 128 MB
+  ProblemTitle: "Bean！"
+  TimeLimit: "1 Sec"
+  MemoryLimit: "128 MB"
 ---
 
 # Bean！

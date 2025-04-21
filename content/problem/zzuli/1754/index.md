@@ -10,8 +10,6 @@ ProblemParams:
   MemoryLimit: "128 MB"
 ---
 
-# Chowhound！Chowhound！！Chowhound！！！
-
 ## 题目描述
 
 JS和GG都是吃货。

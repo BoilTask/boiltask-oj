@@ -1,7 +1,7 @@
 ---
 title: 【ZZULI】[1755]Statistics！
 type: post
-slug: zzuli-1753
+slug: zzuli-1755
 categories:
   - zzuli
 ProblemParams:

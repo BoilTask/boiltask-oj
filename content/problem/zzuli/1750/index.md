@@ -4,9 +4,10 @@ type: post
 slug: zzuli-1750
 categories:
   - zzuli
-problem_title: Bean！
-time_limit: 1 Sec
-memory_limit: 128 MB
+ProblemParams:
+  ProblemTitle: Bean！
+  TimeLimit: 1 Sec
+  MemoryLimit: 128 MB
 ---
 
 # Bean！

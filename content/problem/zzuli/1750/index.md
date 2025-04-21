@@ -5,8 +5,8 @@ slug: zzuli-1750
 categories:
   - zzuli
 problem_title: Bean！
-time_limit: 时间限制: 1,1
-memory_limit: 内存限制: 128,128
+time_limit: 1
+memory_limit: 128
 ---
 
 # Bean！

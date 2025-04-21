@@ -28,8 +28,10 @@ JS知道GG非常喜欢豆子。于是写了个程序送给GG。但是在发送�
 
 ## 样例输入
 
-
+5 3
 
 ## 样例输出
 
-[Ity](https://web.archive.org/web/20210228035830/http://acm.zzuli.edu.cn/problemset.php?search=Ity)
+。。。。。
+。。。。。
+。。。。。[Ity](https://web.archive.org/web/20210228035830/http://acm.zzuli.edu.cn/problemset.php?search=Ity)

@@ -1,5 +1,7 @@
 {{ define "main" }}
-<h1 class="oj-title">{{ .Title }}</h1>
+<h1 class="oj-title">{{ index .Params "title" }}</h1>
+<p>Time Limit: {{ index .Params "time-limit" }}</p>
+<p>Memory Limit: {{ index .Params "memory-limit" }}</p>
 <div class="oj-problem">
     {{ .Content }}
 </div>

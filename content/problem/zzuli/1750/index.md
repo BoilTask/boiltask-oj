@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: 【ZZULI】[1750]Bean！
 type: post
@@ -13,6 +14,21 @@ memory_limit: 128 MB
 
 ## 题目描述
 
+=======
+---
+title: 【郑轻】[1750]Bean！
+type: post
+slug: zzuli-1750
+categories:
+  - zzuli
+title: Bean!
+time-limit: 1 Sec
+memory-limit: 128MB
+---
+
+## Description
+
+>>>>>>> 547371c (完善样式)
 GG非常喜欢用豆子，所以他就有了豆子的称号！
 
 JS知道GG非常喜欢豆子。于是写了个程序送给GG。但是在发送的途中，程序丢失了！！！

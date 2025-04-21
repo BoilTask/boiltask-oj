@@ -1,7 +1,9 @@
 {{ define "main" }}
 <h1 class="oj-title">{{ .Params.ProblemParams.ProblemTitle }}</h1>
-<p>Time Limit: {{ .Params.ProblemParams.TimeLimit }}</p>
-<p>Memory Limit: {{ .Params.ProblemParams.MemoryLimit }}</p>
+<div class="oj-limit">
+    <p>Time Limit: {{ .Params.ProblemParams.TimeLimit }}</p>
+    <p>Memory Limit: {{ .Params.ProblemParams.MemoryLimit }}</p>
+</div>
 <div class="oj-problem">
     {{ .Content }}
 </div>

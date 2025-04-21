@@ -30,6 +30,13 @@
         element.style.display = 'none';
       });
     }
+    const hiddenLimit = urlParams.get('hidden_limit');
+    if (hiddenLimit) {
+      const limitElements = document.querySelectorAll('.oj-limit');
+      limitElements.forEach(element => {
+        element.style.display = 'none';
+      });
+    }
 
     window.parent.postMessage({
       type: 'boiltask-oj-problem-info',

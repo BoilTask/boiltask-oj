@@ -6,8 +6,8 @@ categories:
   - hdu
 ProblemParams:
     ProblemTitle: "Tian Ji -- The Horse Racing"
-    TimeLimit: ""
-    MemoryLimit: ""
+    TimeLimit: "2000/1000 MS"
+    MemoryLimit: "65536/32768 K"
 ---
 
 # Tian Ji -- The Horse Racing

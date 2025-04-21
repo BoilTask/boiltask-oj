@@ -1,7 +1,7 @@
 ---
-title: 【ZZULI】[1778]和尚特烦恼4——有多少战斗力
+title: 【ZZULI】[1779]和尚特烦恼4——有多少战斗力
 type: post
-slug: zzuli-1778
+slug: zzuli-1779
 categories:
   - zzuli
 ProblemParams:

@@ -6,8 +6,8 @@ categories:
   - lightoj
 ProblemParams:
     ProblemTitle: "Fibsieve's Fantabulous Birthday"
-    TimeLimit: ""
-    MemoryLimit: ""
+    TimeLimit: "1 seconds"
+    MemoryLimit: "64 MB"
 ---
 
 ## Description

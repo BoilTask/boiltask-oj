@@ -16,55 +16,13 @@ Fibsieve had a fantabulous (yes, it's an actual word) birthday party this year. 
 
 The cells would light up in the sequence shown in the diagram. Each cell is marked with the second in which it would light up.
 
-25
-
-24
-
-23
-
-22
-
-21
-
-10
-
-11
-
-12
-
-13
-
-20
-
-9
-
-8
-
-7
-
-14
-
-19
-
-2
-
-3
-
-6
-
-15
-
-18
-
-1
-
-4
-
-5
-
-16
-
-17
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| 25 | 24 | 23 | 22 | 21 |
+| 10 | 11 | 12 | 13 | 20 |
+| 9 | 8 | 7 | 14 | 19 |
+| 2 | 3 | 6 | 15 | 18 |
+| 1 | 4 | 5 | 16 | 17 |
 
 In the first second the light at cell (1, 1) would be on. And in the 5th second the cell (3, 1) would be on. Now, Fibsieve is trying to predict which cell will light up at a certain time (given in seconds). Assume that **N** is large enough.
 

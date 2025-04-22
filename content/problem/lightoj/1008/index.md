@@ -80,8 +80,19 @@ For each case you have to print the case number and two numbers **(x, y)**, the 
 
 ## Sample Input
 
-3 8 20 25
+```
+3
+8
+20
+25
+
+```
 
 ## Sample Output
 
-Case 1: 2 3 Case 2: 5 4 Case 3: 1 5
+```
+Case 1: 2 3
+Case 2: 5 4
+Case 3: 1 5
+
+```

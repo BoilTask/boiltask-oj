@@ -57,6 +57,19 @@ Case 3: 1 5
 
 ## Notes
 
-<h4 data-v-3166ea7e="">Input</h4> <div class="markdown-body" data-v-3166ea7e=""><p>Input starts with an integer <strong>T (≤ 200)</strong>, denoting the number of test cases.</p>
-<p>Each case will contain an integer <strong>S (1 ≤ S ≤ 10<sup>15</sup>)</strong> which stands for the time.</p>
-</div>
+<div data-v-3166ea7e=""><div><h4 class="no-print">Sample</h4> <div class="sample-dataset-section"><table class="table is-fullwidth is-bordered"><thead><tr><th><span class="only-print">
+                Sample
+              </span>
+              Input
+            </th> <th><span class="only-print">
+                Sample
+              </span>
+              Output
+            </th></tr></thead> <tbody><tr><td><div data-v-23dc2d3e=""><div class="is-max-height-0" data-v-23dc2d3e=""><div class="is-pulled-right no-print b-tooltip is-light is-top is-medium" data-v-23dc2d3e=""><div class="tooltip-content" style="display:none;">Click to copy</div><div class="tooltip-trigger"><button type="button" class="button is-small is-light" data-v-23dc2d3e=""><!----><!----><span class="icon is-small"><i class="mdi mdi-content-copy"></i></span></button></div></div> <p class="dataset-container" data-v-23dc2d3e="">3
+8
+20
+25
+</p></div></div></td> <td><div data-v-23dc2d3e=""><div class="is-max-height-0" data-v-23dc2d3e=""><div class="is-pulled-right no-print b-tooltip is-light is-top is-medium" data-v-23dc2d3e=""><div class="tooltip-content" style="display:none;">Click to copy</div><div class="tooltip-trigger"><button type="button" class="button is-small is-light" data-v-23dc2d3e=""><!----><!----><span class="icon is-small"><i class="mdi mdi-content-copy"></i></span></button></div></div> <p class="dataset-container" data-v-23dc2d3e="">Case 1: 2 3
+Case 2: 5 4
+Case 3: 1 5
+</p></div></div></td></tr></tbody></table></div></div></div>

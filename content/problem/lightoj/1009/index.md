@@ -52,5 +52,4 @@ Case 2: 3
 
 ## Notes
 
-<p>Dataset is huge, use faster I/O methods.</p>
-
+Dataset is huge, use faster I/O methods.

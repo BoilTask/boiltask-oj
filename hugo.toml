@@ -30,3 +30,14 @@ page = ["HTML", "Problem", "Markdown", "Widget"]
 [permalinks]
 problem = ":slug"
 page = ":slug"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
+[params]
+  math = true

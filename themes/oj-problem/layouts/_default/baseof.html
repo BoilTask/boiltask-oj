@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width,minimum-scale=1">
+  {{ if .Param "math" }}
+  {{ partialCached "math.html" . }}
+  {{ end }}
 </head>
 
 <body>

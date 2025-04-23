@@ -35,37 +35,46 @@ Examples
 Input
 
 ```
-4 4 02 1 2
+4 4 0
+2 1 2
+
 ```
 
 Output
 
 ```
 Yes
+
 ```
 
 Input
 
 ```
-5 6 12 7 2
+5 6 1
+2 7 2
+
 ```
 
 Output
 
 ```
 No
+
 ```
 
 Input
 
 ```
-3 3 32 2 2
+3 3 3
+2 2 2
+
 ```
 
 Output
 
 ```
 Yes
+
 ```
 
 ## Note

@@ -73,4 +73,4 @@ Yes
 
 ## Note
 
-In the first sample the wizard has 4 blue and 4 violet spheres. In his first action he can turn two blue spheres into one violet one. After that he will have 2 blue and 5 violet spheres. Then he turns 4 violet spheres into 2 orange spheres and he ends up with 2 blue, 1 violet and 2 orange spheres, which is exactly what he needs.
+In the first sample the wizard has $4$ blue and $4$ violet spheres. In his first action he can turn two blue spheres into one violet one. After that he will have $2$ blue and $5$ violet spheres. Then he turns $4$ violet spheres into $2$ orange spheres and he ends up with $2$ blue, $1$ violet and $2$ orange spheres, which is exactly what he needs.

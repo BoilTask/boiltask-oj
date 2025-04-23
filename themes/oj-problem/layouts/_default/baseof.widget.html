@@ -8,7 +8,12 @@
   <meta name="viewport" content="width=device-width,minimum-scale=1">
   <script>
     function sendHeight() {
-      const height = document.documentElement.scrollHeight || document.body.scrollHeight;
+      const height = Math.max(
+        document.body.scrollHeight,
+        document.documentElement.scrollHeight,
+        document.body.offsetHeight,
+        document.documentElement.offsetHeight
+      );
       window.parent.postMessage({ type: 'boiltask-oj-set-height', slug: "{{- .Slug -}}", height: height }, '*');
     }
     let timeoutId = -1
@@ -21,6 +26,12 @@
     window.addEventListener('load', sendHeight);
     window.addEventListener('resize', debounceSendHeight);
   </script>
+  <style>
+    #pdf-container canvas {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
   {{ if .Param "math" }}
   {{ partialCached "math.html" . }}
   {{ end }}

@@ -12,13 +12,13 @@ ProblemParams:
 
 ## Description
 
-Carl is a beginner magician. He has $ a $ blue, $ b $ violet and $ c $ orange magic spheres. In one move he can transform two spheres of the same color into one sphere of any other color. To make a spell that has never been seen before, he needs at least $ x $ blue, $ y $ violet and $ z $ orange spheres. Can he get them (possible, in multiple actions)?
+Carl is a beginner magician. He has $a$ blue, $b$ violet and $c$ orange magic spheres. In one move he can transform two spheres of the same color into one sphere of any other color. To make a spell that has never been seen before, he needs at least $x$ blue, $y$ violet and $z$ orange spheres. Can he get them (possible, in multiple actions)?
 
 ## Input
 
-The first line of the input contains three integers $ a $, $ b $ and $ c $ ($0 ≤  a ,  b ,  c  ≤ 1 000 000$) — the number of blue, violet and orange spheres that are in the magician's disposal.
+The first line of the input contains three integers $a$, $b$ and $c$ ($a$) — the number of blue, violet and orange spheres that are in the magician's disposal.
 
-The second line of the input contains three integers, $ x $, $ y $ and $ z $ ($0 ≤  x ,  y ,  z  ≤ 1 000 000$) — the number of blue, violet and orange spheres that he needs to get.
+The second line of the input contains three integers, $x$, $y$ and $z$ ($x$) — the number of blue, violet and orange spheres that he needs to get.
 
 ## Output
 

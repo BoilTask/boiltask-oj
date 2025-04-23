@@ -12,17 +12,15 @@ ProblemParams:
 
 ## Description
 
-Carl is a beginner magician. He has _a_ blue, _b_ violet and _c_ orange magic spheres. In one move he can transform two spheres of the same color into one sphere of any other color. To make a spell that has never been seen before, he needs at least _x_ blue, _y_ violet and _z_ orange spheres. Can he get them (possible, in multiple actions)?
+<p>Carl is a beginner magician. He has <span class="tex-span"><i>a</i></span> blue, <span class="tex-span"><i>b</i></span> violet and <span class="tex-span"><i>c</i></span> orange magic spheres. In one move he can transform two spheres <span class="tex-font-style-bf">of the same color</span> into one sphere of any other color. To make a spell that has never been seen before, he needs at least <span class="tex-span"><i>x</i></span> blue, <span class="tex-span"><i>y</i></span> violet and <span class="tex-span"><i>z</i></span> orange spheres. Can he get them (possible, in multiple actions)?</p>
 
 ## Input
 
-The first line of the input contains three integers _a_, _b_ and _c_ (0鈥夆墹鈥�_a_,鈥�_b_,鈥�_c_鈥夆墹鈥�1鈥�000鈥�000)聽鈥� the number of blue, violet and orange spheres that are in the magician's disposal.
-
-The second line of the input contains three integers, _x_, _y_ and _z_ (0鈥夆墹鈥�_x_,鈥�_y_,鈥�_z_鈥夆墹鈥�1鈥�000鈥�000)聽鈥� the number of blue, violet and orange spheres that he needs to get.
+<p>The first line of the input contains three integers <span class="tex-span"><i>a</i></span>, <span class="tex-span"><i>b</i></span> and <span class="tex-span"><i>c</i></span> (<span class="tex-span">0鈥夆墹鈥�<i>a</i>,鈥�<i>b</i>,鈥�<i>c</i>鈥夆墹鈥�1鈥�000鈥�000</span>)聽鈥� the number of blue, violet and orange spheres that are in the magician's disposal.</p><p>The second line of the input contains three integers, <span class="tex-span"><i>x</i></span>, <span class="tex-span"><i>y</i></span> and <span class="tex-span"><i>z</i></span> (<span class="tex-span">0鈥夆墹鈥�<i>x</i>,鈥�<i>y</i>,鈥�<i>z</i>鈥夆墹鈥�1鈥�000鈥�000</span>)聽鈥� the number of blue, violet and orange spheres that he needs to get.</p>
 
 ## Output
 
-If the wizard is able to obtain the required numbers of spheres, print "Yes". Otherwise, print "No".
+<p>If the wizard is able to obtain the required numbers of spheres, print "<span class="tex-font-style-tt">Yes</span>". Otherwise, print "<span class="tex-font-style-tt">No</span>".</p>
 
 ## Examples
 

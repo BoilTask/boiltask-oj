@@ -2,7 +2,9 @@
 <h1 class="oj-title">{{ .Params.ProblemParams.ProblemTitle }}</h1>
 <div class="oj-limit">
     <p>Time Limit: {{ .Params.ProblemParams.TimeLimit }}</p>
-    <p>Memory Limit: {{ .Params.ProblemParams.MemoryLimit }}</p>
+    {{ if .Params.ProblemParams.MemoryLimit }}
+        <p>Memory Limit: {{ .Params.ProblemParams.MemoryLimit }}</p>
+    {{ end }}
 </div>
 <div class="oj-problem">
     {{ .Content }}

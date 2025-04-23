@@ -1,9 +1,7 @@
-{{- $view := .Get "view" -}}
-
 <div id="pdf-container"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script>
-  const url = 'https://oj.boiltask.com/cdn/220.pdf';
+  const url = '{{ .Get "url" | safeJS }}';
   const loadingTask = pdfjsLib.getDocument(url);
   loadingTask.promise.then(function (pdf) {
     const container = document.getElementById('pdf-container');

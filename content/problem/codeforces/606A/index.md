@@ -16,9 +16,9 @@ Carl is a beginner magician. He has $a$ blue, $b$ violet and $c$ orange magic sp
 
 ## Input
 
-The first line of the input contains three integers $a$, $b$ and $c$ ($a$) — the number of blue, violet and orange spheres that are in the magician's disposal.
+The first line of the input contains three integers $a$, $b$ and $c$ ($0 ≤ a, b, c ≤ 1 000 000$) — the number of blue, violet and orange spheres that are in the magician's disposal.
 
-The second line of the input contains three integers, $x$, $y$ and $z$ ($x$) — the number of blue, violet and orange spheres that he needs to get.
+The second line of the input contains three integers, $x$, $y$ and $z$ ($0 ≤ x, y, z ≤ 1 000 000$) — the number of blue, violet and orange spheres that he needs to get.
 
 ## Output
 

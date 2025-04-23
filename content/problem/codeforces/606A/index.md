@@ -12,15 +12,17 @@ ProblemParams:
 
 ## Description
 
-
+A. Magic Spheres
 
 ## Input
 
+input
 
+standard input
 
 ## Output
 
-
+input
 
 ## Sample Input
 

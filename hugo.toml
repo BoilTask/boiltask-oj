@@ -2,6 +2,7 @@ baseURL = "https://oj.boiltask.com/"
 languageCode = "zh-CN"
 title = "Online Judge Problem"
 theme = "oj-problem"
+disablePathToLower = true
 
 [outputFormats.Problem]
 mediaType = "text/html"

@@ -16,7 +16,7 @@ ProblemParams:
 
 ## Input
 
-<p>The first line of the input contains three integers <span class="tex-span"><i>a</i></span>, <span class="tex-span"><i>b</i></span> and <span class="tex-span"><i>c</i></span> (<span class="tex-span">0鈥夆墹鈥�<i>a</i>,鈥�<i>b</i>,鈥�<i>c</i>鈥夆墹鈥�1鈥�000鈥�000</span>)聽鈥� the number of blue, violet and orange spheres that are in the magician's disposal.</p><p>The second line of the input contains three integers, <span class="tex-span"><i>x</i></span>, <span class="tex-span"><i>y</i></span> and <span class="tex-span"><i>z</i></span> (<span class="tex-span">0鈥夆墹鈥�<i>x</i>,鈥�<i>y</i>,鈥�<i>z</i>鈥夆墹鈥�1鈥�000鈥�000</span>)聽鈥� the number of blue, violet and orange spheres that he needs to get.</p>
+<p>The first line of the input contains three integers <span class="tex-span"><i>a</i></span>, <span class="tex-span"><i>b</i></span> and <span class="tex-span"><i>c</i></span> (<span class="tex-span">0 ≤ <i>a</i>, <i>b</i>, <i>c</i> ≤ 1 000 000</span>) — the number of blue, violet and orange spheres that are in the magician's disposal.</p><p>The second line of the input contains three integers, <span class="tex-span"><i>x</i></span>, <span class="tex-span"><i>y</i></span> and <span class="tex-span"><i>z</i></span> (<span class="tex-span">0 ≤ <i>x</i>, <i>y</i>, <i>z</i> ≤ 1 000 000</span>)&nbsp;— the number of blue, violet and orange spheres that he needs to get.</p>
 
 ## Output
 

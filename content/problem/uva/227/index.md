@@ -1,13 +1,12 @@
 ---
-title: 【LightOJ】[227]Unknown
+title: 【LightOJ】[227]Puzzle
 type: post
 slug: uva-227
 categories:
   - uva
 ProblemParams:
-    ProblemTitle: "Unknown"
-    TimeLimit: "1s"
-    MemoryLimit: "64MB"
+    ProblemTitle: "Puzzle"
+    TimeLimit: "3.000 seconds"
 ---
 
 {{% iframe

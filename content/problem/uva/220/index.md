@@ -1,16 +1,15 @@
 ---
-title: 【UVa】[220]TEX Quotes
+title: 【UVa】[220]Othello
 type: post
 slug: uva-220
 categories:
   - uva
 ProblemParams:
-  ProblemTitle: "TEX Quotes"
-  TimeLimit: "1 Sec"
-  MemoryLimit: "128 MB"
+    ProblemTitle: "Othello"
+    TimeLimit: "3.000 seconds"
 ---
 
-{{% iframe
-url="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=220"
-view="https://onlinejudge.org/external/2/220.pdf"
+{{% pdf_view
+url="https://r2-oj.boiltask.com/uva-220/220.pdf"
+link="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=156"
 %}}

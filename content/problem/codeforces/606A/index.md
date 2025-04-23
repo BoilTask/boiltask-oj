@@ -1,5 +1,5 @@
 ---
-title: 【HDU】[606A]
+title: 【Codeforces】[606A]
 type: post
 slug: codeforces-606A
 categories:

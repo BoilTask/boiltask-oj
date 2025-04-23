@@ -7,16 +7,21 @@
   <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width,minimum-scale=1">
   <script>
+    let timeoutId = -1
+    let lastReportedHeight = 0;
     function sendHeight() {
-      const height = Math.max(
+      let height = Math.max(
         document.body.scrollHeight,
         document.documentElement.scrollHeight,
         document.body.offsetHeight,
         document.documentElement.offsetHeight
       );
+      if (height === lastReportedHeight) {
+        return;
+      }
+      lastReportedHeight = height;
       window.parent.postMessage({ type: 'boiltask-oj-set-height', slug: "{{- .Slug -}}", height: height }, '*');
     }
-    let timeoutId = -1
     function debounceSendHeight(delay = 100) {
       clearTimeout(timeoutId);
       timeoutId = setTimeout(sendHeight, delay);
@@ -24,12 +29,17 @@
     const resizeObserver = new ResizeObserver(debounceSendHeight);
     resizeObserver.observe(document.documentElement);
     window.addEventListener('load', sendHeight);
-    window.addEventListener('resize', debounceSendHeight);
   </script>
   <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+
     #pdf-container canvas {
       max-width: 100%;
-      height: auto;
     }
   </style>
   {{ if .Param "math" }}

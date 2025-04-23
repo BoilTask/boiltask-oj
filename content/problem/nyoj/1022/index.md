@@ -24,7 +24,8 @@ ProblemParams:
 
 ## 示例
 
-  
+### Input
+
 ```
 3
 5
@@ -35,7 +36,9 @@ ProblemParams:
 21 22 23 24 25 26 27 28 29 30
 
 ```  
-  
+
+### Output
+
 ```
 10
 41

@@ -6,8 +6,8 @@ categories:
   - codeforces
 ProblemParams:
     ProblemTitle: "Magic Spheres"
-    TimeLimit: "time limit per test"
-    MemoryLimit: "memory limit per test"
+    TimeLimit: "2 seconds"
+    MemoryLimit: "256 megabytes"
 ---
 
 ## Description

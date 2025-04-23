@@ -16,7 +16,7 @@ ProblemParams:
 
 ## Input
 
-<p>The first line of the input contains three integers <span class="tex-span"><i>a</i></span>, <span class="tex-span"><i>b</i></span> and <span class="tex-span"><i>c</i></span> (<span class="tex-span">0 ≤ <i>a</i>, <i>b</i>, <i>c</i> ≤ 1 000 000</span>) — the number of blue, violet and orange spheres that are in the magician's disposal.</p><p>The second line of the input contains three integers, <span class="tex-span"><i>x</i></span>, <span class="tex-span"><i>y</i></span> and <span class="tex-span"><i>z</i></span> (<span class="tex-span">0 ≤ <i>x</i>, <i>y</i>, <i>z</i> ≤ 1 000 000</span>)&nbsp;— the number of blue, violet and orange spheres that he needs to get.</p>
+<p>The first line of the input contains three integers <span class="tex-span"><i>a</i></span>, <span class="tex-span"><i>b</i></span> and <span class="tex-span"><i>c</i></span> (<span class="tex-span">0 ≤ <i>a</i>, <i>b</i>, <i>c</i> ≤ 1 000 000</span>)&nbsp;— the number of blue, violet and orange spheres that are in the magician's disposal.</p><p>The second line of the input contains three integers, <span class="tex-span"><i>x</i></span>, <span class="tex-span"><i>y</i></span> and <span class="tex-span"><i>z</i></span> (<span class="tex-span">0 ≤ <i>x</i>, <i>y</i>, <i>z</i> ≤ 1 000 000</span>)&nbsp;— the number of blue, violet and orange spheres that he needs to get.</p>
 
 ## Output
 
@@ -24,7 +24,7 @@ ProblemParams:
 
 ## Examples
 
-Examples
+### Examples
 
 ### Input
 
@@ -73,6 +73,6 @@ Yes
 
 ## Note
 
-Note
+### Note
 
-In the first sample the wizard has 4 blue and 4 violet spheres. In his first action he can turn two blue spheres into one violet one. After that he will have 2 blue and 5 violet spheres. Then he turns 4 violet spheres into 2 orange spheres and he ends up with 2 blue, 1 violet and 2 orange spheres, which is exactly what he needs.
+In the first sample the wizard has $4$ blue and $4$ violet spheres. In his first action he can turn two blue spheres into one violet one. After that he will have $2$ blue and $5$ violet spheres. Then he turns $4$ violet spheres into $2$ orange spheres and he ends up with $2$ blue, $1$ violet and $2$ orange spheres, which is exactly what he needs.

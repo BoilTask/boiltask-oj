@@ -1,5 +1,5 @@
 ---
-title: 【LightOJ】[227]Puzzle
+title: 【UVa】[227]Puzzle
 type: post
 slug: uva-227
 categories:
@@ -11,5 +11,5 @@ ProblemParams:
 
 {{% iframe
 url="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=163"
-view="vjudge"
+view="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=163"
 %}}

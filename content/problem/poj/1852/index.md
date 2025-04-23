@@ -24,11 +24,22 @@ The first line of input contains one integer giving the number of cases that fol
 
 ## Sample Input
 
-2 10 3 2 6 7 214 7 11 12 7 13 176 23 191
+```
+2
+10 3
+2 6 7
+214 7
+11 12 7 13 176 23 191
+
+```
 
 ## Sample Output
 
-4 8 38 207
+```
+4 8
+38 207
+
+```
 
 ## Source
 

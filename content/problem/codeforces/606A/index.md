@@ -12,13 +12,13 @@ ProblemParams:
 
 ## Description
 
-Carl is a beginner magician. He has _a_ blue, _b_ violet and _c_ orange magic spheres. In one move he can transform two spheres of the same color into one sphere of any other color. To make a spell that has never been seen before, he needs at least _x_ blue, _y_ violet and _z_ orange spheres. Can he get them (possible, in multiple actions)?
+Carl is a beginner magician. He has $_a_$ blue, $_b_$ violet and $_c_$ orange magic spheres. In one move he can transform two spheres of the same color into one sphere of any other color. To make a spell that has never been seen before, he needs at least $_x_$ blue, $_y_$ violet and $_z_$ orange spheres. Can he get them (possible, in multiple actions)?
 
 ## Input
 
-The first line of the input contains three integers _a_, _b_ and _c_ (0 ≤ _a_, _b_, _c_ ≤ 1 000 000) — the number of blue, violet and orange spheres that are in the magician's disposal.
+The first line of the input contains three integers $_a_$, $_b_$ and $_c_$ ($0 ≤ _a_, _b_, _c_ ≤ 1 000 000$) — the number of blue, violet and orange spheres that are in the magician's disposal.
 
-The second line of the input contains three integers, _x_, _y_ and _z_ (0 ≤ _x_, _y_, _z_ ≤ 1 000 000) — the number of blue, violet and orange spheres that he needs to get.
+The second line of the input contains three integers, $_x_$, $_y_$ and $_z_$ ($0 ≤ _x_, _y_, _z_ ≤ 1 000 000$) — the number of blue, violet and orange spheres that he needs to get.
 
 ## Output
 
@@ -41,7 +41,7 @@ Yes
 
 ```
 
-Input
+### Input
 
 ```
 5 6 1
@@ -49,14 +49,14 @@ Input
 
 ```
 
-Output
+### Output
 
 ```
 No
 
 ```
 
-Input
+### Input
 
 ```
 3 3 3
@@ -64,7 +64,7 @@ Input
 
 ```
 
-Output
+### Output
 
 ```
 Yes

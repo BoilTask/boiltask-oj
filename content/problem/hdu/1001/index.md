@@ -4,9 +4,11 @@ type: post
 slug: hdu-1001
 categories:
   - hdu
+ProblemParams:
+    ProblemTitle: "Sum Problem"
+    TimeLimit: "1000/500 MS"
+    MemoryLimit: "65536/32768 K"
 ---
-
-# Sum Problem
 
 ## Problem Description
 

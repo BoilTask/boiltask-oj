@@ -11,8 +11,15 @@
       const height = document.documentElement.scrollHeight || document.body.scrollHeight;
       window.parent.postMessage({ type: 'boiltask-oj-set-height', slug: "{{- .Slug -}}", height: height }, '*');
     }
+    let timeoutId = -1
+    function debounceSendHeight(delay = 100) {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(sendHeight, delay);
+    }
+    const resizeObserver = new ResizeObserver(debounceSendHeight);
+    resizeObserver.observe(document.documentElement);
     window.addEventListener('load', sendHeight);
-    window.addEventListener('resize', sendHeight);
+    window.addEventListener('resize', debounceSendHeight);
   </script>
   {{ if .Param "math" }}
   {{ partialCached "math.html" . }}

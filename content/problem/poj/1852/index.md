@@ -6,8 +6,8 @@ categories:
   - poj
 ProblemParams:
     ProblemTitle: "Ants"
-    TimeLimit: "?"
-    MemoryLimit: "?"
+    TimeLimit: "1000MS"
+    MemoryLimit: "30000K"
 ---
 
 ## Description

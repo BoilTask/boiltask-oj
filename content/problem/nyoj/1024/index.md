@@ -6,8 +6,8 @@ categories:
   - nyoj
 ProblemParams:
   ProblemTitle: "素数距离问题"
-  TimeLimit: ""
-  MemoryLimit: ""
+  TimeLimit: "3000 MS"
+  MemoryLimit: "256 MB"
 ---
 
 ## 题目描述
@@ -43,6 +43,10 @@ ProblemParams:
 7 1
 11 1
 ```
+
+## 作者
+
+hzyqazasdf
 
 ## 来源
 

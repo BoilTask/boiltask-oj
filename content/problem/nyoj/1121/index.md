@@ -12,21 +12,7 @@ ProblemParams:
 
 ## 题目描述
 
-The **_n_th** _Triangular_ number, **_T_(_n_) = 1 + … + _n_**, is the sum of the first **_n_** integers. It is the number of points in a triangular array with **_n_** points on side. For example **_T_(4)**:
-
-**
-
-X  
-X X  
-X X X  
-X X X X  
-
-
-**
-
-Write a program to compute the weighted sum of triangular numbers:
-
-**_W_(_n_) = `SUM[_k_ = 1…_n_; _k_ * _T_(_k_ + 1)]`**
+$The n^{th} Triangular number, T(n) = 1 + … + n, is the sum of the first n integers. It is the number of points in a triangular array with n points on side. For example T(4):XX XX X XX X X XWrite a program to compute the weighted sum of triangular numbers:W(n) = SUM[k = 1…n; k * T(k + 1)]$
 
 ## 输入描述
 

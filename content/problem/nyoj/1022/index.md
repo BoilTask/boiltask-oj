@@ -46,10 +46,6 @@ ProblemParams:
 
 ```
 
-## 提示
-
-无
-
 ## 来源
 
 NYOJ

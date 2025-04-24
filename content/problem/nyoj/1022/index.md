@@ -48,6 +48,10 @@ ProblemParams:
 
 ```
 
+## 作者
+
+hzyqazasdf
+
 ## 来源
 
 NYOJ

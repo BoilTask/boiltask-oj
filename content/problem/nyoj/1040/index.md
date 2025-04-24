@@ -6,8 +6,8 @@ categories:
   - nyoj
 ProblemParams:
   ProblemTitle: "公约数和公倍数"
-  TimeLimit: ""
-  MemoryLimit: ""
+  TimeLimit: "1000 MS"
+  MemoryLimit: "256 MB"
 ---
 
 ## 题目描述

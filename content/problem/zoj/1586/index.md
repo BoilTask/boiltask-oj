@@ -22,7 +22,7 @@ In the planet w-503 of galaxy cgb, there is a kind of intelligent creature named
 
 A sample is shown below:
 
-![](https://images.ptausercontent.com/0000%2F1586%2F1586.gif)
+![](https://r2-oj.boiltask.com/zoj-1586/6cb9d07343d34d6b96dcb995d0163c04)
 
   
 A sample QS network, and QS A want to send a message.  
@@ -72,6 +72,6 @@ for each data set,output the minimum cost in a line. NO extra empty lines needed
 
 370
 
-## 作者
+## Author
 
 JIANG, Jiefeng

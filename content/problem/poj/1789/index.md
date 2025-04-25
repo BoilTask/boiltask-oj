@@ -15,7 +15,7 @@ ProblemParams:
 Advanced Cargo Movement, Ltd. uses trucks of different types. Some trucks are used for vegetable delivery, other for furniture, or for bricks. The company has its own code describing each type of a truck. The code is simply a string of exactly seven lowercase letters (each letter on each position has a very special meaning but that is unimportant for this task). At the beginning of company's history, just a single truck type was used but later other types were derived from it, then from the new types another types were derived, and so on.  
   
 Today, ACM is rich enough to pay historians to study its history. One thing historians tried to find out is so called derivation plan -- i.e. how the truck types were derived. They defined the distance of truck types as the number of positions with different letters in truck type codes. They also assumed that each truck type was derived from exactly one other truck type (except for the first truck type which was not derived from any other type). The quality of a derivation plan was then defined as  
-<div style="text-align: center;">**1/Σ<sub>(t<sub>o</sub>,t<sub>d</sub>)</sub>d(t<sub>o</sub>,t<sub>d</sub>)**</div>  
+<div style="text-align: center;"><font size="6"><b>1/Σ<sub>(t<sub>o</sub>,t<sub>d</sub>)</sub>d(t<sub>o</sub>,t<sub>d</sub>)</b></font></div>  
 where the sum goes over all pairs of types in the derivation plan such that to is the original type and td the type derived from it and d(to,td) is the distance of the types.  
 Since historians failed, you are to write a program to help them. Given the codes of truck types, your program should find the highest possible quality of a derivation plan.
 

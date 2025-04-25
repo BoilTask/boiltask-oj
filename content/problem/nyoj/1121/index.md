@@ -12,7 +12,13 @@ ProblemParams:
 
 ## 题目描述
 
-$The n^{th} Triangular number, T(n) = 1 + … + n, is the sum of the first n integers. It is the number of points in a triangular array with n points on side. For example T(4):XX XX X XX X X XWrite a program to compute the weighted sum of triangular numbers:W(n) = SUM[k = 1…n; k * T(k + 1)]$
+The $n^{th}$ _Triangular_ number, $T(n) = 1 + … + n$, is the sum of the first $n $ integers. It is the number of points in a triangular array with $n $ points on side. For example $T(4)$:
+
+$XX XX X XX X X X$
+
+Write a program to compute the weighted sum of triangular numbers:
+
+$W(n) = SUM[k = 1…n; k * T(k + 1)]$
 
 ## 输入描述
 

@@ -1,13 +1,13 @@
 ---
-title: 【POJ】[1006]
+title: 【POJ】[1006]Biorhythms
 type: post
 slug: poj-1006
 categories:
   - poj
 ProblemParams:
-    ProblemTitle: ""
-    TimeLimit: "?"
-    MemoryLimit: "?"
+    ProblemTitle: "Biorhythms"
+    TimeLimit: "1000MS"
+    MemoryLimit: "10000K"
 ---
 
 ## Description
@@ -25,11 +25,22 @@ ProblemParams:
 ## Sample Input
 
 ```
-
+0 0 0 0
+0 0 0 100
+5 20 34 325
+4 5 6 7
+283 102 23 320
+203 301 203 40
+-1 -1 -1 -1
 ```
 
 ## Sample Output
 
 ```
-
+Case 1: the next triple peak occurs in 21252 days.
+Case 2: the next triple peak occurs in 21152 days.
+Case 3: the next triple peak occurs in 19575 days.
+Case 4: the next triple peak occurs in 16994 days.
+Case 5: the next triple peak occurs in 8910 days.
+Case 6: the next triple peak occurs in 10789 days.
 ```

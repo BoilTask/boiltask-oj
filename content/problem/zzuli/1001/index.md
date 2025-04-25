@@ -41,4 +41,4 @@ https://www.icourse163.org/learn/ZZULI-1206704833?tid=1465320443#/learn/content?
 
 ## 来源/分类
 
-\*
+[\*](problemset.php?search=%2A)

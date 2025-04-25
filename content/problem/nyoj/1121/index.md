@@ -12,21 +12,15 @@ ProblemParams:
 
 ## 题目描述
 
-The ***n*th** *Triangular* number, ***T*(*n*) = 1 + … + *n***, is the sum of the first ***n*** integers. It is the number of points in a triangular array with ***n*** points on side. For example ***T*(4)**:
-
-**
-
-X  
-X X  
-X X X  
-X X X X  
-
-
-**
-
-Write a program to compute the weighted sum of triangular numbers:
-
-***W*(*n*) = `SUM[*k* = 1…*n*; *k* * *T*(*k* + 1)]`**
+<span class="Apple-style-span" style="font-family:'Times New Roman', Times, serif;line-height:normal;font-size:16px;-webkit-border-horizontal-spacing:2px;-webkit-border-vertical-spacing:2px;"><p>The&nbsp;<b><i>n</i><sup>th</sup></b><i>&nbsp;Triangular</i>&nbsp;number,&nbsp;<b><i>T</i>(<i>n</i>) = 1 + … +&nbsp;<i>n</i></b>, is the sum of the first&nbsp;<b><i>n</i>&nbsp;</b>integers. It is the number of points in a triangular array with&nbsp;<b><i>n</i>&nbsp;</b>points on side. For example&nbsp;<b><i>T</i>(4)</b>:</p>
+<b><div align="center">X<br />
+X X<br />
+X X X<br />
+X X X X<br />
+</div>
+</b><p>Write a program to compute the weighted sum of triangular numbers:</p>
+<p align="center"><b><i>W</i>(<i>n</i>) =&nbsp;<code>SUM[<i>k</i>&nbsp;= 1…<i>n</i>;&nbsp;<i>k</i>&nbsp;*&nbsp;<i>T</i>(<i>k</i>&nbsp;+ 1)]</code></b></p>
+</span>
 
 ## 输入描述
 

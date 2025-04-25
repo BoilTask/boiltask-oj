@@ -16,7 +16,7 @@ Advanced Cargo Movement, Ltd. uses trucks of different types. Some trucks are us
   
 Today, ACM is rich enough to pay historians to study its history. One thing historians tried to find out is so called derivation plan -- i.e. how the truck types were derived. They defined the distance of truck types as the number of positions with different letters in truck type codes. They also assumed that each truck type was derived from exactly one other truck type (except for the first truck type which was not derived from any other type). The quality of a derivation plan was then defined as  
 
-1/Σ<sub>(t<sub>o</sub>,t<sub>d</sub>)</sub>d(t<sub>o</sub>,t<sub>d</sub>)
+**1/Σ<sub>(t<sub>o</sub>,t<sub>d</sub>)</sub>d(t<sub>o</sub>,t<sub>d</sub>)**
 
   
 where the sum goes over all pairs of types in the derivation plan such that to is the original type and td the type derived from it and d(to,td) is the distance of the types.  

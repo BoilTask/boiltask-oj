@@ -7,7 +7,7 @@ categories:
 ProblemParams:
     ProblemTitle: "Genealogical tree"
     TimeLimit: "1000MS"
-    MemoryLimit: "?"
+    MemoryLimit: "65536K"
 ---
 
 ## Description

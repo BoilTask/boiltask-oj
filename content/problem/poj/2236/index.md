@@ -59,4 +59,4 @@ SUCCESS
 
 ## Source
 
-[POJ Monthly](https://web.archive.org/web/http://poj.org/searchproblem?field=source&key=POJ+Monthly),HQM
+[POJ Monthly](http://poj.org/searchproblem?field=source&key=POJ+Monthly),HQM

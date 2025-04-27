@@ -13,7 +13,7 @@ ProblemParams:
 ## Problem Description
 
 As the new term comes, the Ignatius Train Station is very busy nowadays. A lot of student want to get back to school by train(because the trains in the Ignatius Train Station is the fastest all over the world ^v^). But here comes a problem, there is only one railway where all the trains stop. So all the trains come in from one side and get out from the other side. For this problem, if train A gets into the railway first, and then train B gets into the railway before train A leaves, train A can't leave until train B leaves. The pictures below figure out the problem. Now the problem for you is, there are at most 9 trains in the station, all the trains has an ID(numbered from 1 to n), the trains get into the railway in an order O1, your task is to determine whether the trains can get out in an order O2.  
-![](https://r2-oj.boiltask.com/1022/5a1227579efe8caa25e804dc99a53ad3)![](https://r2-oj.boiltask.com/1022/2744f54f4f7978ee1fcbae86d5a870aa)![](https://r2-oj.boiltask.com/1022/550d3e1b971c960d225035734992dd05)
+![](https://r2-oj.boiltask.com/hdu-1022/5a1227579efe8caa25e804dc99a53ad3)![](https://r2-oj.boiltask.com/hdu-1022/2744f54f4f7978ee1fcbae86d5a870aa)![](https://r2-oj.boiltask.com/hdu-1022/550d3e1b971c960d225035734992dd05)
 
 ## Input
 

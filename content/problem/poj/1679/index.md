@@ -54,4 +54,4 @@ Not Unique!
 
 ## Source
 
-[POJ Monthly--2004.06.27 srbga@POJ](https://web.archive.org/web/http://poj.org/searchproblem?field=source&key=POJ+Monthly--2004.06.27+srbga%40POJ)
+[POJ Monthly--2004.06.27 srbga@POJ](http://poj.org/searchproblem?field=source&key=POJ+Monthly--2004.06.27+srbga%40POJ)

@@ -32,7 +32,8 @@ The cows don't use actual bowling balls when they go bowling. They each take a n
 
 
   4   5   2   6   5
-```Then the other cows traverse the triangle starting from its tip and moving "down" to one of the two diagonally adjacent cows until the "bottom" row is reached. The cow's score is the sum of the numbers of the cows visited along the way. The cow with the highest score wins that frame.  
+```
+Then the other cows traverse the triangle starting from its tip and moving "down" to one of the two diagonally adjacent cows until the "bottom" row is reached. The cow's score is the sum of the numbers of the cows visited along the way. The cow with the highest score wins that frame.  
   
 Given a triangle with N (1 <= N <= 350) rows, determine the highest possible sum achievable.
 
@@ -87,7 +88,8 @@ Explanation of the sample:
        *
 
   4   5   2   6   5
-```The highest score is achievable by traversing the cows as shown above.
+```
+The highest score is achievable by traversing the cows as shown above.
 
 ## Source
 

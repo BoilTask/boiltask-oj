@@ -60,4 +60,4 @@ Huge input, scanf is recommended.
 
 ## Source
 
-[Alberta Collegiate Programming Contest 2003.10.18](https://web.archive.org/web/20240909023955/http://poj.org/searchproblem?field=source&key=Alberta+Collegiate+Programming+Contest+2003.10.18)
+[Alberta Collegiate Programming Contest 2003.10.18](http://poj.org/searchproblem?field=source&key=Alberta+Collegiate+Programming+Contest+2003.10.18)

@@ -48,4 +48,4 @@ Case 6: the next triple peak occurs in 10789 days.
 
 ## Source
 
-[East Central North America 1999](https://web.archive.org/web/http://poj.org/searchproblem?field=source&key=East+Central+North+America+1999)
+[East Central North America 1999](http://poj.org/searchproblem?field=source&key=East+Central+North+America+1999)

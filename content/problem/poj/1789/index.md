@@ -48,4 +48,4 @@ The highest possible quality is 1/3.
 
 ## Source
 
-[CTU Open 2003](https://web.archive.org/web/20240622112115/http://poj.org/searchproblem?field=source&key=CTU+Open+2003)
+[CTU Open 2003](http://poj.org/searchproblem?field=source&key=CTU+Open+2003)

@@ -54,4 +54,4 @@ On the first line of input there is one integer, N <= 50, giving the number of t
 
 ## Source
 
-[Svenskt Mästerskap i Programmering/Norgesmesterskapet 2001](https://web.archive.org/web/http://poj.org/searchproblem?field=source&key=Svenskt+M%C3%A4sterskap+i+Programmering%2FNorgesmesterskapet+2001)
+[Svenskt Mästerskap i Programmering/Norgesmesterskapet 2001](http://poj.org/searchproblem?field=source&key=Svenskt+M%C3%A4sterskap+i+Programmering%2FNorgesmesterskapet+2001)

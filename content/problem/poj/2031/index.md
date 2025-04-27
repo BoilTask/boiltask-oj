@@ -87,4 +87,4 @@ The end of the input is indicated by a line containing a zero.
 
 ## Source
 
-[Japan 2003 Domestic](https://web.archive.org/web/http://poj.org/searchproblem?field=source&key=Japan+2003+Domestic)
+[Japan 2003 Domestic](http://poj.org/searchproblem?field=source&key=Japan+2003+Domestic)

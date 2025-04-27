@@ -7,7 +7,7 @@ categories:
 ProblemParams:
     ProblemTitle: "Highways"
     TimeLimit: "1000MS"
-    MemoryLimit: "?"
+    MemoryLimit: "10000K"
 ---
 
 ## Description

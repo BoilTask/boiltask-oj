@@ -67,4 +67,4 @@ The maximal number of points is 50. The maximal length of a given route is 100. 
 
 ## Source
 
-[Southeastern Europe 2002](https://web.archive.org/web/20230208105322/http://poj.org/searchproblem?field=source&key=Southeastern+Europe+2002)
+[Southeastern Europe 2002](http://poj.org/searchproblem?field=source&key=Southeastern+Europe+2002)

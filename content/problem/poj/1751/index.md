@@ -66,4 +66,4 @@ The next line contains a single integer M (0 <= M <= 1000), representing the num
 
 ## Source
 
-[Northeastern Europe 1999](https://web.archive.org/web/http://poj.org/searchproblem?field=source&key=Northeastern+Europe+1999)
+[Northeastern Europe 1999](http://poj.org/searchproblem?field=source&key=Northeastern+Europe+1999)

@@ -59,4 +59,4 @@ ProblemParams:
 
 ## Source
 
-[Noi 01](https://web.archive.org/web/http://poj.org/searchproblem?field=source&key=Noi+01)
+[Noi 01](http://poj.org/searchproblem?field=source&key=Noi+01)

@@ -21,10 +21,7 @@ There is a unique sequence of directed edges from the root to each node.
   
 For example, consider the illustrations below, in which nodes are represented by circles and edges are represented by lines with arrowheads. The first two of these are trees, but the last is not.  
   
-
-![](https://acm.hdu.edu.cn//data/images/1325-1.gif)![](https://acm.hdu.edu.cn//data/images/1325-2.gif)![](https://acm.hdu.edu.cn//data/images/1325-3.gif)
-
-  
+<div style="text-align: center;"><img style="max-width:100%;" src="https://r2-oj.boiltask.com/hdu-1325/ae96e556999c671705e79ef1080d0ebf"><img style="max-width:100%;" src="https://r2-oj.boiltask.com/hdu-1325/0e56250911e0ddd61abfe70e9b6eaef3"><img style="max-width:100%;" src="https://r2-oj.boiltask.com/hdu-1325/6aaaf118bd43220cba6a96976ddfb04a"></div>  
   
 In this problem you will be given several descriptions of collections of nodes connected by directed edges. For each of these you are to determine if the collection satisfies the definition of a tree or not.
 

@@ -46,4 +46,4 @@ The first line of input contains N, the number of test cases. The first line of 
 
 ## Source
 
-[Waterloo local 2002.09.28](https://web.archive.org/web/http://poj.org/searchproblem?field=source&key=Waterloo+local+2002.09.28)
+[Waterloo local 2002.09.28](http://poj.org/searchproblem?field=source&key=Waterloo+local+2002.09.28)

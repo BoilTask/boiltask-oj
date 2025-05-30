@@ -12,43 +12,7 @@ ProblemParams:
 
 ## Description
 
-Input
-
-The input contains a single integer $a$ ($0 ≤ a ≤ 35$).
-
-Output
-
-Output a single integer.
-
-Examples
-
-Input
-
-```
-3
-
-```
-
-Output
-
-```
-8
-
-```
-
-Input
-
-```
-10
-
-```
-
-Output
-
-```
-1024
-
-```
+This problem has no description.
 
 ## Input
 

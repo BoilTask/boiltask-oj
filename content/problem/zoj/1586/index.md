@@ -1,5 +1,5 @@
 ---
-title: 【POJ】[1586]QS Network
+title: 【ZOJ】[1586]QS Network
 type: post
 slug: zoj-1586
 categories:

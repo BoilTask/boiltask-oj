@@ -4,9 +4,11 @@ type: post
 slug: hdu-1009
 categories:
   - hdu
+ProblemParams:
+    ProblemTitle: "FatMouse' Trade"
+    TimeLimit: "2000/1000 MS"
+    MemoryLimit: "65536/32768 K"
 ---
-
-# FatMouse' Trade
 
 ## Problem Description
 

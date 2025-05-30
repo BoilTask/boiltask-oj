@@ -1,5 +1,5 @@
 ---
-title: 【POJ】[3878]Convert QWERTY to Dvorak
+title: 【ZOJ】[3878]Convert QWERTY to Dvorak
 type: post
 slug: zoj-3878
 categories:

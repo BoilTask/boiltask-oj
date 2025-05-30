@@ -4,9 +4,11 @@ type: post
 slug: hdu-1010
 categories:
   - hdu
+ProblemParams:
+    ProblemTitle: "Tempter of the Bone"
+    TimeLimit: "2000/1000 MS"
+    MemoryLimit: "65536/32768 K"
 ---
-
-# Tempter of the Bone
 
 ## Problem Description
 

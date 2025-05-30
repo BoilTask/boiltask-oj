@@ -4,9 +4,11 @@ type: post
 slug: hdu-1280
 categories:
   - hdu
+ProblemParams:
+    ProblemTitle: "前m大的数"
+    TimeLimit: "2000/1000 MS"
+    MemoryLimit: "65536/32768 K"
 ---
-
-# 前m大的数
 
 ## Problem Description
 

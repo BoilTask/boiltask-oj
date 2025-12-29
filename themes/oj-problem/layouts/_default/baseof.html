@@ -6,7 +6,54 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width,minimum-scale=1">
-  <meta name="description" content="{{ .Description }}">
+  
+  <!-- SEO Meta Tags -->
+  {{ $description := .Description | default .Site.Params.Description }}
+  {{ if .IsPage }}
+    {{ $description = .Description | default .Site.Params.Description }}
+  {{ end }}
+  <meta name="description" content="{{ $description }}">
+  
+  <!-- 关键词 -->
+  {{ if .Params.Keywords }}
+    <meta name="keywords" content="{{ delimit .Params.Keywords ", " }}">
+  {{ else if .Site.Params.Keywords }}
+    <meta name="keywords" content="{{ delimit .Site.Params.Keywords ", " }}">
+  {{ end }}
+  
+  <!-- 作者 -->
+  {{ if .Params.Author }}
+    <meta name="author" content="{{ .Params.Author }}">
+  {{ else if .Site.Params.Author }}
+    <meta name="author" content="{{ .Site.Params.Author }}">
+  {{ end }}
+  
+  <!-- 规范URL -->
+  <link rel="canonical" href="{{ .Permalink }}">
+  
+  <!-- 网站图标 -->
+  {{ with .Site.Params.Favicon }}
+    <link rel="icon" href="{{ . | absURL }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ . | absURL }}" type="image/x-icon">
+  {{ end }}
+  
+  <!-- Open Graph 标签 -->
+  <meta property="og:title" content="{{ with .Params.Title }}{{ . }} - {{ end }}{{ .Site.Title }}">
+  <meta property="og:description" content="{{ $description }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  
+  <!-- Twitter Card 标签 -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ with .Params.Title }}{{ . }} - {{ end }}{{ .Site.Title }}">
+  <meta name="twitter:description" content="{{ $description }}">
+  <meta name="twitter:site" content="{{ .Site.Params.TwitterHandle }}">
+  
+  <!-- RSS 订阅 -->
+  {{ with .OutputFormats.Get "RSS" }}
+    <link rel="alternate" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}">
+  {{ end }}
   <style>
     /* 基础样式重置 */
     html,
@@ -314,31 +361,64 @@
       border-color: #dee2e6;
     }
 
-    /* 响应式设计 */
-    @media (max-width: 768px) {
-      main {
-        padding: 25px 15px;
-      }
-
-      article header h1 {
-        font-size: 1.8rem;
-      }
-
-      .problem-list {
-        grid-template-columns: 1fr;
-        gap: 20px;
-      }
-
-      .problem-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-      }
-
-      .problem-source {
-        align-self: flex-start;
-      }
+    /* 网站头部样式 */
+  .site-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e1e4e8;
+    padding: 15px 20px;
+    text-align: center;
+  }
+  
+  /* 网站底部样式 */
+  .site-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e1e4e8;
+    padding: 25px 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #6c757d;
+    font-size: 0.9rem;
+  }
+  
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    main {
+      padding: 25px 15px;
     }
+    
+    .site-header {
+      padding: 12px 15px;
+    }
+    
+    .site-footer {
+      padding: 20px 15px;
+      margin-top: 30px;
+    }
+
+    article header h1 {
+      font-size: 1.8rem;
+    }
+
+    .problem-list {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .problem-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .problem-source {
+      align-self: flex-start;
+    }
+  }
   </style>
   {{ if .Param "math" }}
   {{ partialCached "math.html" . }}
@@ -346,9 +426,21 @@
 </head>
 
 <body>
-  <main role="main">
+  <!-- 页面主体结构 -->
+  <header id="site-header" class="site-header" role="banner">
+    <!-- 可以在这里添加网站头部内容，如导航、Logo等 -->
+  </header>
+  
+  <main id="site-main" class="site-main" role="main">
     {{ block "main" . }}{{ end }}
   </main>
+  
+  <footer id="site-footer" class="site-footer" role="contentinfo">
+    <!-- 可以在这里添加网站底部内容，如版权信息、联系方式等 -->
+    <div class="footer-content">
+      <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 
 </html>

@@ -361,15 +361,7 @@
       border-color: #dee2e6;
     }
 
-    /* 网站头部样式 */
-  .site-header {
-    background-color: #ffffff;
-    border-bottom: 1px solid #e1e4e8;
-    padding: 15px 20px;
-    text-align: center;
-  }
-  
-  /* 网站底部样式 */
+    /*/* 网站底部样式 */
   .site-footer {
     background-color: #f8f9fa;
     border-top: 1px solid #e1e4e8;
@@ -389,10 +381,6 @@
   @media (max-width: 768px) {
     main {
       padding: 25px 15px;
-    }
-    
-    .site-header {
-      padding: 12px 15px;
     }
     
     .site-footer {
@@ -427,10 +415,6 @@
 
 <body>
   <!-- 页面主体结构 -->
-  <header id="site-header" class="site-header" role="banner">
-    <!-- 可以在这里添加网站头部内容，如导航、Logo等 -->
-  </header>
-  
   <main id="site-main" class="site-main" role="main">
     {{ block "main" . }}{{ end }}
   </main>

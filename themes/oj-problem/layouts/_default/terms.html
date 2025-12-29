@@ -7,7 +7,8 @@
             {{ $.Data.Singular | inflect.Humanize }}: {{ $term.LinkTitle }}
           </a>
         </h2>
-        {{ range $term.Pages }}
+        {{ $sortedPages := $term.Pages.ByLastmod.Reverse }}
+        {{ range $sortedPages }}
           {{ .Render "summary" }}
         {{ end }}
       {{ end }}

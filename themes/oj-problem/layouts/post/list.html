@@ -1,10 +1,12 @@
 {{ define "main" }}
+  {{ $sortedPages := .Pages.ByLastmod.Reverse }}
+  {{ $paginator := .Paginate $sortedPages }}
   <article>
     <section>
       {{ .Content }}
     </section>
     <aside>
-      {{ range .Paginator.Pages }}
+      {{ range $paginator.Pages }}
         <div>
           {{ .Render "summary" }}
         </div>

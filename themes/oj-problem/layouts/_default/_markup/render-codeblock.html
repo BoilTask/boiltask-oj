@@ -1,0 +1,102 @@
+<div class="code-block-container">
+  <pre tabindex="0"><code>{{ .Inner }}</code></pre>
+  <button class="copy-button" onclick="copyCode(this)">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+    </svg>
+    <span>复制</span>
+  </button>
+</div>
+
+<script>
+function copyCode(button) {
+  const codeBlock = button.previousElementSibling;
+  const code = codeBlock.querySelector('code').textContent;
+  
+  navigator.clipboard.writeText(code).then(() => {
+    const originalText = button.innerHTML;
+    button.innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="20 6 9 17 4 12"></polyline>
+      </svg>
+      <span>已复制</span>
+    `;
+    button.classList.add('copied');
+    
+    setTimeout(() => {
+      button.innerHTML = originalText;
+      button.classList.remove('copied');
+    }, 2000);
+  }).catch(err => {
+    console.error('复制失败:', err);
+  });
+}
+</script>
+
+<style>
+.code-block-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.copy-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  opacity: 0;
+  color: #586069;
+}
+
+.code-block-container:hover .copy-button {
+  opacity: 1;
+}
+
+.copy-button:hover {
+  background-color: #ffffff;
+  border-color: #3498db;
+  color: #3498db;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.copy-button:active {
+  transform: translateY(1px);
+}
+
+.copy-button.copied {
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+  color: white;
+}
+
+.copy-button svg {
+  flex-shrink: 0;
+}
+
+/* 确保代码块内容不会被按钮遮挡 */
+.code-block-container pre {
+  padding-right: 80px !important;
+}
+
+@media (max-width: 768px) {
+  .copy-button {
+    opacity: 1; /* 移动端始终显示复制按钮 */
+    padding: 4px 8px;
+    font-size: 0.7rem;
+  }
+  
+  .code-block-container pre {
+    padding-right: 70px !important;
+  }
+}
+</style>

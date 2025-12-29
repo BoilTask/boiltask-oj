@@ -35,11 +35,43 @@ function copyCode(button) {
 </script>
 
 <style>
+/* 代码块容器样式优化，与主题保持一致 */
 .code-block-container {
   position: relative;
   margin-bottom: 20px;
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
 }
 
+/* 代码块样式优化，与主题保持一致 */
+.code-block-container pre {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 20px !important;
+  overflow-x: auto;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+  padding-right: 80px !important;
+}
+
+/* 代码内联样式优化 */
+.code-block-container code {
+  background-color: transparent !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
+  font-size: 0.9rem !important;
+  color: #2c3e50 !important;
+}
+
+/* 复制按钮样式优化，与主题按钮样式保持一致 */
 .copy-button {
   position: absolute;
   top: 8px;
@@ -48,14 +80,15 @@ function copyCode(button) {
   align-items: center;
   gap: 6px;
   padding: 6px 12px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   border: 1px solid #e1e4e8;
   border-radius: 6px;
   font-size: 0.8rem;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
   opacity: 0;
-  color: #586069;
+  color: #555;
+  font-weight: 500;
 }
 
 .code-block-container:hover .copy-button {
@@ -66,28 +99,26 @@ function copyCode(button) {
   background-color: #ffffff;
   border-color: #3498db;
   color: #3498db;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
 }
 
 .copy-button:active {
-  transform: translateY(1px);
+  transform: translateY(0);
 }
 
 .copy-button.copied {
   background-color: #2ecc71;
   border-color: #2ecc71;
   color: white;
+  box-shadow: 0 4px 12px rgba(46, 204, 113, 0.3);
 }
 
 .copy-button svg {
   flex-shrink: 0;
 }
 
-/* 确保代码块内容不会被按钮遮挡 */
-.code-block-container pre {
-  padding-right: 80px !important;
-}
-
+/* 响应式设计，与主题保持一致 */
 @media (max-width: 768px) {
   .copy-button {
     opacity: 1; /* 移动端始终显示复制按钮 */
@@ -96,7 +127,13 @@ function copyCode(button) {
   }
   
   .code-block-container pre {
+    padding: 15px !important;
     padding-right: 70px !important;
+    font-size: 0.85rem !important;
+  }
+  
+  .code-block-container {
+    margin-bottom: 15px;
   }
 }
 </style>

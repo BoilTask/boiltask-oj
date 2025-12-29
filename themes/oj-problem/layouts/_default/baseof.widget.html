@@ -31,15 +31,177 @@
     window.addEventListener('load', sendHeight);
   </script>
   <style>
+    /* 基础样式重置 */
     html,
     body {
       margin: 0;
       padding: 0;
       width: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fff;
     }
 
+    /* 主内容区域 */
+    main {
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    /* 题目标题 */
+    .oj-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #2c3e50;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 10px;
+    }
+
+    /* 限制信息 */
+    .oj-limit {
+      background-color: #f8f9fa;
+      border: 1px solid #e9ecef;
+      border-radius: 4px;
+      padding: 12px;
+      margin-bottom: 20px;
+      display: flex;
+      gap: 20px;
+      font-size: 0.95rem;
+    }
+
+    .oj-limit p {
+      margin: 0;
+      color: #555;
+    }
+
+    /* 题目内容 */
+    .oj-problem {
+      font-size: 1rem;
+    }
+
+    /* 内容中的标题 */
+    .oj-problem h1,
+    .oj-problem h2,
+    .oj-problem h3,
+    .oj-problem h4,
+    .oj-problem h5,
+    .oj-problem h6 {
+      margin-top: 24px;
+      margin-bottom: 16px;
+      color: #2c3e50;
+      font-weight: 600;
+    }
+
+    .oj-problem h1 {
+      font-size: 1.5rem;
+    }
+
+    .oj-problem h2 {
+      font-size: 1.3rem;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 8px;
+    }
+
+    .oj-problem h3 {
+      font-size: 1.15rem;
+    }
+
+    /* 段落样式 */
+    .oj-problem p {
+      margin-bottom: 16px;
+      text-align: justify;
+    }
+
+    /* 列表样式 */
+    .oj-problem ul,
+    .oj-problem ol {
+      margin-bottom: 16px;
+      padding-left: 24px;
+    }
+
+    .oj-problem li {
+      margin-bottom: 8px;
+    }
+
+    /* 代码块样式 */
+    .oj-problem pre {
+      background-color: #f6f8fa;
+      border: 1px solid #e1e4e8;
+      border-radius: 4px;
+      padding: 16px;
+      overflow-x: auto;
+      font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
+    .oj-problem code {
+      font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+      background-color: #f1f3f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-size: 0.9rem;
+    }
+
+    /* 表格样式 */
+    .oj-problem table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 16px;
+      overflow-x: auto;
+      display: block;
+    }
+
+    .oj-problem th,
+    .oj-problem td {
+      border: 1px solid #ddd;
+      padding: 12px 15px;
+      text-align: left;
+    }
+
+    .oj-problem th {
+      background-color: #f8f9fa;
+      font-weight: 600;
+      color: #2c3e50;
+    }
+
+    .oj-problem tr:nth-child(even) {
+      background-color: #f8f9fa;
+    }
+
+    /* 引用样式 */
+    .oj-problem blockquote {
+      border-left: 4px solid #3498db;
+      margin: 0 0 16px 0;
+      padding: 10px 20px;
+      color: #666;
+      background-color: #f8f9fa;
+      border-radius: 0 4px 4px 0;
+    }
+
+    /* PDF 容器样式 */
     #pdf-container canvas {
       max-width: 100%;
+    }
+
+    /* 响应式设计 */
+    @media (max-width: 768px) {
+      main {
+        padding: 15px;
+      }
+
+      .oj-title {
+        font-size: 1.5rem;
+      }
+
+      .oj-limit {
+        flex-direction: column;
+        gap: 8px;
+      }
     }
   </style>
   {{ if .Param "math" }}

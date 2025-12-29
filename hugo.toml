@@ -44,3 +44,5 @@ page = ":slug"
           inline = [['\(', '\)'], ['$', '$']]
 [params]
   math = true
+
+paginate = 20

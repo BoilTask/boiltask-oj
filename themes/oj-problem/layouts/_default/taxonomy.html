@@ -1,11 +1,15 @@
 {{ define "main" }}
   <div>
     <section>
-      {{ range .Pages }}
-        <div>
+      {{ $paginator := .Paginate .Pages 20 }}
+      {{ range $paginator.Pages }}
+        <div class="problem-item">
           {{ .Render "summary" }}
         </div>
       {{ end }}
+      <div class="pagination" style="margin-top: 40px; text-align: center;">
+        {{- template "_internal/pagination.html" . -}}
+      </div>
     </section>
   </div>
 {{ end }}

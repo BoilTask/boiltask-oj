@@ -4,9 +4,11 @@ type: post
 slug: hdu-2187
 categories:
   - hdu
+ProblemParams:
+    ProblemTitle: "悼念512汶川大地震遇难同胞——老人是真饿了"
+    TimeLimit: "1000/1000 MS"
+    MemoryLimit: "32768/32768 K"
 ---
-
-# 悼念512汶川大地震遇难同胞——老人是真饿了
 
 ## Problem Description
 
@@ -16,26 +18,14 @@ categories:
   
 【转载整理】牛脑寨是一个全村600多人的羌族寨子，震后几天，这里依然能常常听到隆隆的声音，那是对面山上石头不断滑落的声音。在完成整个突击队的抢修移动基站的任务后，我提着相机开始记录这里的受创情况。  
 突然，我的视线里出现一个羌族老人，这让我无比的震惊，要知道，那是一个极陡的坡，这个佝偻着腰的老人是怎么艰难地爬上来的？她上来做什么？  
-
-![](https://acm.hdu.edu.cn/../../../data/images/C132-1002-1.JPG)
-
-  
+<div style="text-align: center;"><img style="max-width:100%;" src="https://r2-oj.boiltask.com/hdu-2187/a3129e9b3823981de572e4e0ef21a6f9"></div>  
 老人背后是极陡的坡，她只有一只眼睛有依稀的视力，望着满地废墟，她徘徊了很久。家在哪里，她极力地用很低的视力找寻着。她曾经的家就在旁边，但是满目废墟已经让老人看不出来。她举目远眺，期望那里能看到家的一点点痕迹。原来家就在旁边，左手抓住一个房橼，努力让自己站住，地震过去三天了，她第一次回到曾经的家。  
-
-![](https://acm.hdu.edu.cn/../../../data/images/C132-1002-2.JPG)
-
-  
+<div style="text-align: center;"><img style="max-width:100%;" src="https://r2-oj.boiltask.com/hdu-2187/a5c82bc39351758dad655ecf7847cf71"></div>  
 一个倒塌的柜子，里面装着一丝希望，老人很吃力地搬动掩盖在柜子上的薪柴。老人找到一把木匠用的刨子，老泪纵横，或许有哪个逝去的亲人是木匠。睹物思人，逝者已矣。  
-
-![](https://acm.hdu.edu.cn/../../../data/images/C132-1002-3.JPG)
-
-  
+<div style="text-align: center;"><img style="max-width:100%;" src="https://r2-oj.boiltask.com/hdu-2187/62c69845eb9ac778d65b6698c1541c7c"></div>  
 继续找，一把散碎的挂面出现在我的眼前。她颤颤巍巍地捞起铺满灰尘的挂面，再次流出了眼泪......  
 看着她仔细地把挂面放进胸前的围腰里，我顿然感觉到，这是老人在得到外援之前赖以生存的口粮了，如果不是交通中断，外部救援进不来，老人家又何必拖着80多岁的躯体，强忍失去亲人的痛苦，重新回到这夺取她亲人生命的废墟，寻找这点点挂面？老人是真饿了......  
-
-![](https://acm.hdu.edu.cn/../../../data/images/C132-1002-4.JPG)
-
-  
+<div style="text-align: center;"><img style="max-width:100%;" src="https://r2-oj.boiltask.com/hdu-2187/e8c24a1ef9bd647a4b5eb15bc6890b35"></div>  
 老人佝偻着腰，低声喃喃地念着那两句话“你们走了，我可怎么活”，拿着那对我们身处城市的人们微不足道的挂面，远去了......  
   
 PS: 拍完这组照片后我才知道，5月14号军用运输飞机第一次给汶川空投救援物资就掉在牛脑寨，受灾的村民们没有占为己有，而是汗流浃背地走了两个小时背到山下的县城交给政府。  

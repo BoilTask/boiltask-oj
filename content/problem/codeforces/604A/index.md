@@ -1,0 +1,69 @@
+---
+title: 【Codeforces】[604A]Uncowed Forces
+type: post
+slug: codeforces-604A
+categories:
+  - codeforces
+ProblemParams:
+    ProblemTitle: "Uncowed Forces"
+    TimeLimit: "1 second"
+    MemoryLimit: "256 megabytes"
+---
+
+## Description
+
+Kevin Sun has just finished competing in Codeforces Round #334! The round was 120 minutes long and featured five problems with maximum point values of 500, 1000, 1500, 2000, and 2500, respectively. Despite the challenging tasks, Kevin was uncowed and bulldozed through all of them, distinguishing himself from the herd as the best cowmputer scientist in all of Bovinia. Kevin knows his submission time for each problem, the number of wrong submissions that he made on each problem, and his total numbers of successful and unsuccessful hacks. Because Codeforces scoring is complicated, Kevin wants you to write a program to compute his final score.
+
+Codeforces scores are computed as follows: If the maximum point value of a problem is $x$, and Kevin submitted correctly at minute $m$ but made $w$ wrong submissions, then his score on that problem is ![](https://r2-oj.boiltask.com/codeforces-604A/ab23dea428d1264f4fe937d3fd71bd8b). His total score is equal to the sum of his scores for each problem. In addition, Kevin's total score gets increased by $100$ points for each successful hack, but gets decreased by $50$ points for each unsuccessful hack.
+
+All arithmetic operations are performed with absolute precision and no rounding. It is guaranteed that Kevin's final score is an integer.
+
+## Input
+
+The first line of the input contains five space-separated integers $m_{1}$, $m_{2}$, $m_{3}$, $m_{4}$, $m_{5}$, where $m_{i}$ ($0 ≤ m_{i} ≤ 119$) is the time of Kevin's last submission for problem $i$. His last submission is always correct and gets accepted.
+
+The second line contains five space-separated integers $w_{1}$, $w_{2}$, $w_{3}$, $w_{4}$, $w_{5}$, where $w_{i}$ ($0 ≤ w_{i} ≤ 10$) is Kevin's number of wrong submissions on problem $i$.
+
+The last line contains two space-separated integers $h_{s}$ and $h_{u}$ ($0 ≤ h_{s}, h_{u} ≤ 20$), denoting the Kevin's numbers of successful and unsuccessful hacks, respectively.
+
+## Output
+
+Print a single integer, the value of Kevin's final score.
+
+## Examples
+
+### Input
+
+```
+20 40 60 80 100
+0 1 2 3 4
+1 0
+
+```
+
+### Output
+
+```
+4900
+
+```
+
+### Input
+
+```
+119 119 119 119 119
+0 0 0 0 0
+10 0
+
+```
+
+### Output
+
+```
+4930
+
+```
+
+## Note
+
+In the second sample, Kevin takes $119$ minutes on all of the problems. Therefore, he gets ![](https://r2-oj.boiltask.com/codeforces-604A/89ff35c02b335305a2a4fc2892425ae6) of the points on each problem. So his score from solving problems is ![](https://r2-oj.boiltask.com/codeforces-604A/dd3d25cfe708a6a3ede158c05d219c4f). Adding in $10·100 = 1000$ points from hacks, his total score becomes $3930 + 1000 = 4930$.

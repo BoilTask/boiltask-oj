@@ -16,7 +16,7 @@ Little Petya often travels to his grandmother in the countryside. The grandmothe
 
 Creating artificial rain is an expensive operation. That's why we limit ourselves to creating the artificial rain only above one section. At that, the water from each watered section will flow into its neighbouring sections if their height does not exceed the height of the section. That is, for example, the garden can be represented by a $1 × 5$ rectangle, where the section heights are equal to 4, 2, 3, 3, 2. Then if we create an artificial rain over any of the sections with the height of 3, the water will flow over all the sections, except the ones with the height of 4. See the illustration of this example at the picture:
 
-<div style="text-align: center;"><img class="tex-graphics" src="https://r2-oj.boiltask.com/codeforces-66B/40a16b33747afd9338ea74bec8082b15" style="max-width: 100.0%;max-height: 100.0%;"></div>
+<div style="text-align: center;"><img class="tex-graphics" src="https://r2-oj.boiltask.com/codeforces-66B/44dcbb3b7d7b62ab5b8820cf433299ee" style="max-width: 100.0%;max-height: 100.0%;"></div>
 
 As Petya is keen on programming, he decided to find such a section that if we create artificial rain above it, the number of watered sections will be maximal. Help him.
 
